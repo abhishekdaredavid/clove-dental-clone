@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Clove Dental in Noida offers expert dental care services including implants, braces, checkups and more. Open all 7 days with emergency care available." />
+  <meta name="keywords" content="Clove Dental, Noida Dentist, Dental Implants, Braces, Root Canal, Emergency Dental Clinic" />
+  <meta name="author" content="Clove Dental" />
+  <title>Clove Dental Noida | Best Dental Clinic in Noida</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/images/logo.png" />
+</head>
+<body>
+  <header>
+    <div class="container header">
+      <a href="#"><img src="assets/images/logo-full.png" alt="Clove Dental Full Logo" class="logo" /></a>
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#appointment" class="btn">Book Appointment</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-label="Hero Section">
+      <img src="assets/images/hero.png" alt="Dentist with Patient at Clove Dental" />
+      <div class="hero-text">
+        <h1>Expert Dental Care in Noida</h1>
+        <p>Trusted by millions for gentle, professional dental treatment at Clove Dental Noida.</p>
+        <a href="#appointment" class="btn">Book Now</a>
+      </div>
+    </section>
+
+    <section class="info container" aria-label="Clinic Info">
+      <p><strong>⭐ 4.9/5 Rating</strong> | <strong>⏰ 08:00 AM – 10:00 PM</strong></p>
+      <p>📍 Sector 18, Noida | <a href="tel:+911234567890" class="btn">Call Now</a></p>
+    </section>
+
+    <section id="stats" class="stats container" aria-label="Clinic Statistics">
+      <div><strong>30L+</strong> Happy Patients</div>
+      <div><strong>1300+</strong> Expert Dentists</div>
+      <div><strong>600+</strong> Clinics Nationwide</div>
+      <div><strong>55K+</strong> Successful Implants</div>
+    </section>
+
+    <section id="services" class="container services" aria-label="Our Dental Services">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div><img src="assets/images/icon-checkup.png" alt="Check-up Icon"><p>General Check-up</p></div>
+        <div><img src="assets/images/icon-implants.png" alt="Implants Icon"><p>Dental Implants</p></div>
+        <div><img src="assets/images/icon-braces.png" alt="Braces Icon"><p>Braces & Aligners</p></div>
+        <div><img src="assets/images/icon-laser.png" alt="Laser Icon"><p>Laser Dentistry</p></div>
+      </div>
+    </section>
+
+    <section id="faq" class="container" aria-label="Frequently Asked Questions">
+      <h2>FAQs</h2>
+      <div class="faq">
+        <h3 onclick="toggleFAQ(this)" role="button" tabindex="0">Are you open on weekends?</h3>
+        <p>Yes, we’re open 7 days a week including weekends and holidays.</p>
+        <h3 onclick="toggleFAQ(this)" role="button" tabindex="0">Do you handle emergency dental services?</h3>
+        <p>Absolutely. Emergency cases are treated with priority and expertise.</p>
+      </div>
+    </section>
+
+    <section id="appointment" class="container contact" aria-label="Book Your Appointment">
+      <h2>Book Appointment</h2>
+      <form onsubmit="submitForm(event)">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input type="email" name="email" placeholder="Email (Optional)" />
+        <input type="date" name="date" required />
+        <textarea name="message" placeholder="Your Concern (Optional)"></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer" aria-label="Footer">
+    <img src="assets/images/footer-logo.png" alt="Clove Dental Footer Logo" />
+    <p>&copy; 2024 Clove Dental. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

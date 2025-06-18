@@ -1,0 +1,109 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1f1f1f;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 1rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #1d4ed8;
+}
+.btn {
+  background: #1d4ed8;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.hero {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.hero-text {
+  flex: 1;
+}
+.hero img {
+  width: 50%;
+  border-radius: 10px;
+}
+.info {
+  text-align: center;
+  background: #eef4ff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: #f8f8f8;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.services {
+  margin-top: 2rem;
+  text-align: center;
+}
+.service-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.service-grid div {
+  text-align: center;
+}
+.service-grid img {
+  height: 60px;
+}
+.faq h3 {
+  cursor: pointer;
+  background: #f0f0f0;
+  padding: 0.5rem;
+  margin: 0;
+}
+.faq p {
+  padding: 0.5rem;
+  display: none;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 1rem;
+  margin: auto;
+}
+.contact input, .contact textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.footer {
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.footer img {
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
