@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apollo Hospitals Noida</title>
+  <meta name="description" content="Apollo Hospitals in Noida: Book appointments, consult doctors, and access 24x7 emergency healthcare. India's most trusted medical brand.">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="container header">
+    <img src="assets/images/apollo-logo-banner.jpg" alt="Apollo Hospitals Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why">Why Apollo</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#appointment" class="btn">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="assets/images/hospital-building.jpg" alt="Apollo Hospital Noida" class="hero-img">
+    <div class="hero-text">
+      <h1>Compassionate Care. Advanced Medicine.</h1>
+      <p>24/7 Emergency | Teleconsultation | 10,000+ Doctors</p>
+      <a href="#appointment" class="btn">Book Appointment</a>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>Meet Our Experts</h2>
+    <img src="assets/images/doctor.jpg" alt="Apollo Doctor" class="doctor-img" />
+  </section>
+
+  <section id="services" class="container">
+    <h2>Centres of Excellence</h2>
+    <ul class="grid">
+      <li>Cardiology</li>
+      <li>Neurology</li>
+      <li>Orthopaedics</li>
+      <li>Oncology</li>
+    </ul>
+  </section>
+
+  <section id="why" class="container">
+    <h2>Why Choose Apollo?</h2>
+    <ul>
+      <li>✅ 40+ Years of Expertise</li>
+      <li>✅ 10,000+ Doctors</li>
+      <li>✅ 24x7 Emergency & ICU</li>
+      <li>✅ JCI & NABH Accreditation</li>
+    </ul>
+  </section>
+
+  <section id="faq" class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+      <h3 onclick="toggleFAQ(this)">Do I need an appointment?</h3>
+      <p>No, walk-ins are accepted but appointments are preferred.</p>
+      <h3 onclick="toggleFAQ(this)">Can I book online consultations?</h3>
+      <p>Yes, Apollo supports telemedicine for most specialties.</p>
+    </div>
+  </section>
+
+  <section id="appointment" class="container">
+    <h2>Book Your Appointment</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="email" name="email" placeholder="Email" />
+      <input type="date" name="date" required />
+      <textarea name="message" placeholder="Describe your concern..."></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Apollo Hospitals. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
