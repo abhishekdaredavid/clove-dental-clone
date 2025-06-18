@@ -1,1 +1,0 @@
-console.log('Clove Dental Page Loaded');
