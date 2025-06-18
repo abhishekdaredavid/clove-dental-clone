@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clove Dental Noida</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header">
+      <img src="assets/images/logo.png" alt="Clove Dental Logo" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#appointment" class="btn">Book Appointment</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container">
+    <img src="assets/images/hero.png" alt="Dentist with Patient" />
+    <div class="hero-text">
+      <h1>Expert Dental Care in Noida</h1>
+      <p>Trusted by millions for gentle, professional dental treatment.</p>
+      <a href="#appointment" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <section class="info container">
+    <p>⭐ 4.9/5 Rating | ⏰ 08:00 AM – 10:00 PM</p>
+    <p>📍 Sector 18, Noida | <a href="tel:+911234567890" class="btn">Call Now</a></p>
+  </section>
+
+  <section id="stats" class="stats container">
+    <div>30L+ Patients</div>
+    <div>1300+ Dentists</div>
+    <div>600+ Clinics</div>
+    <div>55K+ Implants</div>
+  </section>
+
+  <section id="services" class="container services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div><img src="assets/images/icon-checkup.png" alt=""><p>Check-up</p></div>
+      <div><img src="assets/images/icon-implants.png" alt=""><p>Implants</p></div>
+      <div><img src="assets/images/icon-braces.png" alt=""><p>Braces</p></div>
+      <div><img src="assets/images/icon-laser.png" alt=""><p>Laser</p></div>
+    </div>
+  </section>
+
+  <section id="faq" class="container">
+    <h2>FAQs</h2>
+    <div class="faq">
+      <h3 onclick="toggleFAQ(this)">Are you open on weekends?</h3>
+      <p>Yes, we’re open 7 days a week.</p>
+      <h3 onclick="toggleFAQ(this)">Do you handle emergencies?</h3>
+      <p>Yes, we handle dental emergencies promptly.</p>
+    </div>
+  </section>
+
+  <section id="appointment" class="container contact">
+    <h2>Book Appointment</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Full Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="date" required />
+      <textarea placeholder="Your Concern"></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <img src="assets/images/footer-logo.png" alt="Clove Footer Logo" />
+    <p>&copy; 2024 Clove Dental. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
