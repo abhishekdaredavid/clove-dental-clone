@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clove Dental Noida</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <img src="assets/images/logo.png" alt="Clove Dental Logo" class="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#appointment" class="btn">Book Appointment</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h1>Dentist in Noida</h1>
+        <p>Facing dental issues? At Clove Dental Noida, we provide the highest quality care in advanced dental treatment.</p>
+        <a href="#appointment" class="btn">Book Appointment</a>
+      </div>
+      <div class="hero-img">
+        <img src="assets/images/hero-banner.png" alt="Hero" />
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="container services-section">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-item"><img src="assets/images/icon-checkup.png" alt=""><p>General Check-up</p></div>
+      <div class="service-item"><img src="assets/images/icon-implants.png" alt=""><p>Implants</p></div>
+      <div class="service-item"><img src="assets/images/icon-braces.png" alt=""><p>Braces & Aligners</p></div>
+      <div class="service-item"><img src="assets/images/icon-laser.png" alt=""><p>Laser Dentistry</p></div>
+    </div>
+  </section>
+
+  <section id="faq" class="container">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+      <h3 onclick="toggleFAQ(this)">What are clinic timings?</h3>
+      <p>We are open from 8:00 AM to 10:00 PM every day including weekends.</p>
+    </div>
+    <div class="faq-item">
+      <h3 onclick="toggleFAQ(this)">Do you offer emergency services?</h3>
+      <p>Yes, our Noida clinic handles emergency cases promptly and professionally.</p>
+    </div>
+  </section>
+
+  <section id="appointment" class="container contact-form-section">
+    <h2>Book an Appointment</h2>
+    <form class="contact-form" onsubmit="submitForm(event)">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="email" name="email" placeholder="Email Address" />
+      <textarea name="message" rows="4" placeholder="Describe your concern"></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Clove Dental. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
